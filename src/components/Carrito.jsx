@@ -30,12 +30,12 @@ const Carrito = () => {
         {
             carrito.map((prod) => (
                 <div key={prod.id} className='grid grid-cols-2 m-4 rounded-lg overflow-hidden w-full shadow'>
-                    <div className='bg-white'>
+                    <div className='bg-whitesomke'>
                         <img src={prod.image} alt={prod.titulo} />
                     </div>
-                    <div className='bg-blue-50 p-4'>
+                    <div className='bg-lightblue-50 p-4'>
                     <h3 className='text-lg font-bold'>{prod.title}</h3>
-                    <span className='text-right text-gray-600'>ID: {prod.id}
+                    <span className='text-right text-red-600'>ID: {prod.id}
                     <p>Precio unit: {formatNumber(prod.price)}</p>
                     <p>Precio total: {formatNumber(prod.price * prod.cantidad)}</p>
                     <p>Cant: {prod.cantidad}</p>
