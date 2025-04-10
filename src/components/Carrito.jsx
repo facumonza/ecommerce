@@ -35,7 +35,7 @@ const Carrito = () => {
                     </div>
                     <div className='bg-lightblue-50 p-4'>
                     <h3 className='text-lg font-bold'>{prod.title}</h3>
-                    <span className='text-right text-red-600'>ID: {prod.id}
+                    <span className='text-right text-black-600'>ID: {prod.id}
                     <p>Precio unit: {formatNumber(prod.price)}</p>
                     <p>Precio total: {formatNumber(prod.price * prod.cantidad)}</p>
                     <p>Cant: {prod.cantidad}</p>
